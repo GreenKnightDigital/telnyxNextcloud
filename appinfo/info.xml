@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>telnyxsms</id>
+    <name>Telnyx S M S</name>
+    <summary>Application for texting with telnyx</summary>
+    <description><![CDATA[This app allows integration with Telnyx]]></description>
+    <version>0.0.1</version>
+    <licence>agpl</licence>
+    <author mail="josh@greenknightdigital.com" >Josh Light</author>
+    <namespace>TelnyxSMS</namespace>
+    <category>integration</category>
+    <bugs>https://github.com/GreenKnightDigital/telnyxNextcloud</bugs>
+    <dependencies>
+        <nextcloud min-version="12" max-version="12"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>Telnyx S M S</name>
+            <route>telnyxsms.page.index</route>
+        </navigation>
+    </navigations>
+</info>
