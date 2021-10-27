@@ -1,0 +1,15 @@
+{
+    "name": "Telnyx S M S",
+    "description": "Application for texting with telnyx",
+    "type": "project",
+    "license": "AGPL",
+    "authors": [
+        {
+            "name": "Josh Light"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^5.4"
+    }
+}
